@@ -1,5 +1,5 @@
 # Completions
-source ~/.local/bin/bashmarks.sh
+source ~/.dotfiles/bashmarks/bashmarks.sh
 source ~/.dotfiles/git_completion.sh
 
 # Prompt magic
