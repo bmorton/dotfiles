@@ -23,6 +23,7 @@ alias redis_start="redis-server /usr/local/etc/redis.conf"
 alias ls='ls -FGhl'
 alias la='ls -FGhlA'
 alias push_platypus="cd /Volumes/1703india/Projects/kitchensink && knife ssh 'role:platypus_web_unicorn' 'sudo chef-client' -a ec2.public_hostname -x ec2-user"
+alias fs='foreman start'
 
 # External crap
 source ~/.dotfiles/aws.sh
