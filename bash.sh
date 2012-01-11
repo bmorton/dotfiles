@@ -25,6 +25,8 @@ alias redis_start="redis-server /usr/local/etc/redis.conf"
 alias postgres_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias postgres_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias elastic_start="elasticsearch -f -D es.config=/usr/local/Cellar/elasticsearch/0.18.6/config/elasticsearch.yml"
+alias mysql_start="mysql.server start"
+alias mysql_stop="mysql.server stop"
 
 # Aliases for Ruby stuff --------------------------------------------------------------------------
 alias fs='foreman start'
