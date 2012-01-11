@@ -20,6 +20,8 @@ export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
 # Aliases
 alias mongo_start="mongod run --config /usr/local/Cellar/mongodb/2.0.0-x86_64/mongod.conf"
 alias redis_start="redis-server /usr/local/etc/redis.conf"
+alias postgres_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias postgres_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias ls='ls -FGhl'
 alias la='ls -FGhlA'
 alias push_platypus="cd /Volumes/1703india/Projects/kitchensink && knife ssh 'role:platypus_web_unicorn' 'sudo chef-client' -a ec2.public_hostname -x ec2-user"
