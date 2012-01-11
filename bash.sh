@@ -24,7 +24,7 @@ alias mongo_start="mongod run --config /usr/local/Cellar/mongodb/2.0.0-x86_64/mo
 alias redis_start="redis-server /usr/local/etc/redis.conf"
 alias postgres_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias postgres_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
-alias elastic_start="elasticsearch -f -D es.config=/usr/local/Cellar/elasticsearch/0.16.2/config/elasticsearch.yml"
+alias elastic_start="elasticsearch -f -D es.config=/usr/local/Cellar/elasticsearch/0.18.6/config/elasticsearch.yml"
 
 # Aliases for Ruby stuff --------------------------------------------------------------------------
 alias fs='foreman start'
